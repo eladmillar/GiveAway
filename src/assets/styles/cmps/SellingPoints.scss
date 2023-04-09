@@ -1,0 +1,62 @@
+.selling-points {
+    display: grid;
+    grid-template-columns: 1fr 400px 150px 400px 1fr;
+    text-align: center;
+    margin-top: 160px;
+    background-color: #181f2b;
+
+    .access {
+        grid-column: 2;
+        margin-bottom: 100px;
+    }
+
+    .collaboration {
+        grid-column: 2;
+    }
+
+    .anyfile {
+        grid-column: 4;
+    }
+
+    .security {
+        grid-column: 4;
+        margin-bottom: 100px;
+    }
+
+    section {
+        // min-width: 350px;
+
+        div{
+            height: 100px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            line-height: 21px;
+            margin: 0;
+            max-width: fit-content;
+        }
+    }
+}
+
+// .selling-points{
+//     text-align: center;
+//     flex-wrap: wrap;
+//     flex: 1 1;
+//     row-gap: 100px;
+//     column-gap: 150px;
+//     margin-top: 160px;
+//     section{
+//         min-width: 350px;
+//         h2{
+//             font-size: 20px;
+//         }
+//         p{
+//             line-height: 21px;
+//             margin: 0;
+//         }
+//     }
+// }

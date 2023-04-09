@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: $clr1;
+    color: $clr6;
+}
+
+html {
+    font-family: Open-Sans;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #1b2330;
+}
+
+body {
+    font-size: rem(14px);
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway;
+    margin: 0 0 0.6em;
+    line-height: 1;
+}
+
+
+section, main, footer {
+    padding: 5px;
+}
+
+// img {
+//     width: 100%;
+// }
+
+p {
+    margin: 0 0 1em;
+    max-width: 40ch;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    // text-decoration: underline;
+}
+
